@@ -3,7 +3,7 @@ import React from "react";
 const Header = () => {
   return (
     <header className="header">
-      <img src="assets/img/logo.png" alt="varila logo" className="logo" />
+      <img src="assets/img/logo.png" alt="trillo logo" className="logo" />
       <form action="#" className="search">
         <input
           type="text"

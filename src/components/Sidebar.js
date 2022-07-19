@@ -60,7 +60,7 @@ const Sidebar = () => {
         </li>
       </ul>
 
-      <div className="legal">&copy; 2017 by varila. All rights reserved.</div>
+      <div className="legal">&copy; 2017 by trillo. All rights reserved.</div>
     </nav>
   );
 };
