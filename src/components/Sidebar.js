@@ -12,12 +12,12 @@ const Sidebar = () => {
             tab === 0 && "side-nav__item--active"
           }  `}
         >
-          <a href="#" className="side-nav__link">
+          <li href="#" className="side-nav__link">
             <svg className="side-nav__icon">
               <use xlinkHref="assets/img/sprite.svg#icon-home"></use>
             </svg>
             <span>Hotel</span>
-          </a>
+          </li>
         </li>
         <li
           onClick={() => setTab(1)}
@@ -25,12 +25,12 @@ const Sidebar = () => {
             tab === 1 && "side-nav__item--active"
           }  `}
         >
-          <a href="#" className="side-nav__link">
+          <li href="#" className="side-nav__link">
             <svg className="side-nav__icon">
               <use xlinkHref="assets/img/sprite.svg#icon-aircraft-take-off"></use>
             </svg>
             <span>Flight</span>
-          </a>
+          </li>
         </li>
         <li
           onClick={() => setTab(2)}
@@ -38,12 +38,12 @@ const Sidebar = () => {
             tab === 2 && "side-nav__item--active"
           }  `}
         >
-          <a href="#" className="side-nav__link">
+          <li href="#" className="side-nav__link">
             <svg className="side-nav__icon">
               <use xlinkHref="assets/img/sprite.svg#icon-key"></use>
             </svg>
             <span>Car rental</span>
-          </a>
+          </li>
         </li>
         <li
           onClick={() => setTab(3)}
@@ -51,12 +51,12 @@ const Sidebar = () => {
             tab === 3 && "side-nav__item--active"
           }  `}
         >
-          <a href="#" className="side-nav__link">
+          <li href="#" className="side-nav__link">
             <svg className="side-nav__icon">
               <use xlinkHref="assets/img/sprite.svg#icon-map"></use>
             </svg>
             <span>Tours</span>
-          </a>
+          </li>
         </li>
       </ul>
 

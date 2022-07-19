@@ -172,7 +172,8 @@
   }
 
   &__link:link,
-  &__link:visited {
+  &__link:visited,
+  &__link{
     color: var(--color-grey-light-1);
     text-decoration: none;
     text-transform: uppercase;
